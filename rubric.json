@@ -1,0 +1,31 @@
+{
+  "criteria": [
+    {
+      "name": "Salutation",
+      "keywords": ["hello", "hi", "good morning", "everyone"],
+      "weight": 5
+    },
+    {
+      "name": "Mandatory Details",
+      "keywords": ["name", "age", "school", "class", "family"],
+      "weight": 20
+    },
+    {
+      "name": "Hobbies",
+      "keywords": ["play", "playing", "cricket", "wickets"],
+      "weight": 4
+    },
+    {
+      "name": "Unique Facts",
+      "keywords": ["fun fact", "mirror", "talk", "myself", "stole", "toy", "cousin"],
+      "weight": 2
+    },
+    {
+      "name": "Favourite Subject",
+      "keywords": ["science", "interesting", "explore", "discoveries", "improve"],
+      "weight": 4
+    }
+  ],
+  "min_word_count": 80,
+  "max_word_count": 150
+}
