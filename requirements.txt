@@ -1,0 +1,5 @@
+streamlit
+nltk
+language-tool-python
+openpyxl
+pandas
